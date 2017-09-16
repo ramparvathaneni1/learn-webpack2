@@ -16,17 +16,17 @@ Webpack bundles our many JS files and budles them into single/fewer JS files.
 
 ### Module Systems in use in the JS World
  - CommonJS
-    -- Used in Node Apps
-    -- `require`
-    -- `module.exports`
+    - Used in Node Apps
+    - `require`
+    - `module.exports`
  - AMD
-    -- Async Module Definition
-    -- Used in Front End Apps
-    -- `define`
-    -- `require`
+    - Async Module Definition
+    - Used in Front End Apps
+    - `define`
+    - `require`
  - ES2015
-    -- Where the modern web dev is heading.
-    -- `export`
-    -- `import`
+    - Where the modern web dev is heading.
+    - `export`
+    - `import`
 This tutorial is using CommonJS module system.
 
