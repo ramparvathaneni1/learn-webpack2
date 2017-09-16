@@ -30,3 +30,10 @@ Webpack bundles our many JS files and budles them into single/fewer JS files.
     - `import`
 This tutorial is using CommonJS module system.
 
+`webpack.config.js` helps us configure how Webpack should work.
+
+`entry` property in config file is the file which does not have any exports. It only imports other files.
+Here, `index.js` is the `entry` file.
+
+
+
