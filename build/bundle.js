@@ -70,7 +70,7 @@
 const sum = __webpack_require__(1); // CommonJS importing using relative file reference.
 
 const total = sum(10, 5);
-cosnole.log(total);
+console.log(total);
 
 /***/ }),
 /* 1 */
@@ -79,7 +79,7 @@ cosnole.log(total);
 const sum = (a, b) => a + b;
 
 // CommonJS
-modulue.exports = sum;
+module.exports = sum;
 
 /***/ })
 /******/ ]);
