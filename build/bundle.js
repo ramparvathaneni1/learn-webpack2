@@ -67,16 +67,24 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-const sum = __webpack_require__(1); // CommonJS importing using relative file reference.
+"use strict";
 
-const total = sum(10, 5);
+
+var sum = __webpack_require__(1); // CommonJS importing using relative file reference.
+
+var total = sum(10, 5);
 console.log(total);
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-const sum = (a, b) => a + b;
+"use strict";
+
+
+var sum = function sum(a, b) {
+  return a + b;
+};
 
 // CommonJS
 module.exports = sum;
