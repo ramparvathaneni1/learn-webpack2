@@ -1,5 +1,0 @@
-Udemy - Webpack 2: The Complete Developer's Guide
-By Stephen Grider
-
-Completed examples: https://github.com/StephenGrider/WebpackCasts
-
