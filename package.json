@@ -1,0 +1,14 @@
+{
+  "name": "learn-webpack2",
+  "version": "1.0.0",
+  "description": "Learning Webpack2",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Ram Suhas P",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^3.6.0"
+  }
+}
