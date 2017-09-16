@@ -4,7 +4,7 @@
   "description": "Learning Webpack2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified.\" && exit"
+    "build": "webpack"
   },
   "author": "Ram Suhas P",
   "license": "ISC",
